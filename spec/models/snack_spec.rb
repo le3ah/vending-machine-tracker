@@ -5,4 +5,5 @@ describe Snack, type: :model do
     it { should have_many :machines }
     it { should have_many :snack_machines }
   end
+
 end
