@@ -19,6 +19,9 @@ describe 'snack show page' do
       expect(page).to have_content("Average Price: #{machine_1.average_price}")
       expect(page).to have_content("Average Price: #{machine_2.average_price}")
 
+      # expect(page).to have_content("Unique Count: #{machine_1.average_price}")
+      # expect(page).to have_content("Unique Count: #{machine_2.average_price}")
+
     end
   end
 end
