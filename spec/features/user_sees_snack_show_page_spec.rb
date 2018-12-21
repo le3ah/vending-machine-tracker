@@ -16,6 +16,9 @@ describe 'snack show page' do
       expect(page).to have_content(machine_1.location)
       expect(page).to have_content(machine_2.location)
 
+      expect(page).to have_content("Average Price: #{machine_1.average_price}")
+      expect(page).to have_content("Average Price: #{machine_2.average_price}")
+
     end
   end
 end
